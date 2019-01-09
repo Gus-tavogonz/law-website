@@ -5,7 +5,17 @@
 
 .title{
     text-align: center;
+    padding: 20px;
 }
 .column{
+    text-align: center;
+}
+
+.about{
+    margin-top: 20px;
+}
+
+.justify{
     text-align: justify;
+    line-height: 1.6;
 }
