@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Migir Ilganayev | Attorney at Law</title>
 
     <!----JQUERY-->
     <script
@@ -13,6 +13,7 @@
    crossorigin="anonymous"></script>
 
     <!------BOOTSTRAP-->
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 
@@ -20,11 +21,20 @@
     <link rel="stylesheet" href="assets/style/style.css">
 
     <!--JavaScript files-->
+    <script type="text/javascript" src="assets/js/javascript.js"></script>
+
+
+    <!-----ANIMATE ON SCROLL FILES-->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 </head>
 <body>
-
+        <script>
+                AOS.init();
+              </script>
 
     <div class="section-navbar">
         <nav class="navbar navbar-expand-lg navbar-light ">
@@ -36,15 +46,15 @@
                       
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
+                            <li class="nav-item active services">
                               <a class="nav-link" href="index.html">Services<span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="about.html">About</a>
+                            <li class="nav-item about">
+                              <a class="nav-link" href="">About</a>
                             </li>
                   
-                             <li class="nav-item">
-                              <a class="nav-link" href="contact.html">Contact</a>
+                             <li class="nav-item contact">
+                              <a class="nav-link" href="">Contact</a>
                             </li>
                            
                             <li class="nav-item">
@@ -72,20 +82,27 @@
 
     <!----COLUMNS HERE-->
 
-    <div class="container">
+    <div class="container" id="scrollToServices">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12 center">
+                    <h1>Our Services</h1>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-4">
-                <h1 class="title">Criminal Defense</h1>
+                <h3 class="title">Criminal Defense</h3>
                 <p class="column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, minus. Vitae numquam harum eaque commodi temporibus quaerat officia! Fuga laudantium, saepe quasi ipsam nostrum quae repudiandae. Corrupti esse accusantium minima?</p>
             </div>
 
             <div class="col-md-4">
-                <h1 class="title">Civil Litigation</h1>
+                <h3 class="title">Civil Litigation</h3>
                 <p class="column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, minus. Vitae numquam harum eaque commodi temporibus quaerat officia! Fuga laudantium, saepe quasi ipsam nostrum quae repudiandae. Corrupti esse accusantium minima?</p>
             </div>
 
             <div class="col-md-4">
-                <h1 class="title">Personal Injury</h1>
+                <h3 class="title">Personal Injury</h3>
                 <p class="column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, minus. Vitae numquam harum eaque commodi temporibus quaerat officia! Fuga laudantium, saepe quasi ipsam nostrum quae repudiandae. Corrupti esse accusantium minima?</p>
             </div>
         </div>
@@ -93,7 +110,7 @@
     <!----COLUMNS ENDS HERE-->
 
 
-    <div class="container about">
+    <div class="container attorney-profile" id="scrollToAttorneyProfile">
         <div class="row">
             <div class="col-md-12">
                 <h1 class="title">Attorney Profile</h1>
@@ -121,13 +138,13 @@
     </div>
 
 
-    <div class="container">
+    <div class="container" id="scrollToContact">
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="title">Contact</h1>
-                    <p class="column">ilganayevlaw@gmail.com</p>
-                    <p class="column">(646) 396-8050</p>
-                    <p class="column">139 Fulton St, Suite 801, New York, New York 10038, USA</p>
+                    <p class="center">ilganayevlaw@gmail.com</p>
+                    <p class="center">(646) 396-8050</p>
+                    <p class="center">139 Fulton St, Suite 801, New York, New York 10038, USA</p>
                     
                     <p></p>
                     
@@ -140,6 +157,12 @@
         <div class="jumbotron">
             <h1>Footer here!!!</h1>
         </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      </body>
     
 </body>
 </html>
