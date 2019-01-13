@@ -1,3 +1,20 @@
+.navbar-brand{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-title{
+    font-size: 26px;
+}
+
+.nav-item{
+    font-size: 18px;
+}
+
+
+
+
+
 .jumbotron{
     height: 500px;
 
@@ -7,6 +24,12 @@
     text-align: center;
     padding: 40px;
     margin-bottom: 40px;
+}
+
+.subtitle{
+    text-align: center;
+    padding: 20px;
+
 }
 .column{
     text-align: justify;
