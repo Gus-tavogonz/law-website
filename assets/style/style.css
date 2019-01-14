@@ -3,15 +3,29 @@
     padding-bottom: 20px;
 }
 
+nav{
+    background-color: lightgray;
+}
+
 .nav-title{
     font-size: 26px;
 }
 
-.nav-item{
-    font-size: 18px;
+
+a{
+    color: #696969;
 }
 
+a:hover{
+    color:white;
+}
 
+.nav-item{
+    font-size: 20px;
+    color: darkgrey;
+    padding-top: 4px;
+
+}
 
 
 
@@ -23,9 +37,13 @@
 .title{
     text-align: center;
     padding: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
+
+.attorney{
+    color: white;
+}
 .subtitle{
     text-align: center;
     padding: 20px;
@@ -45,12 +63,37 @@
 .justify{
     text-align: justify;
     line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.white-text{
+    color:white;
+}
+
+.col-md-6{
+    padding-bottom: 20px;
 }
 
 .center{
-    text-align: center
+    text-align: center;
+    font-size: 20px;
+    
 }
 
 #scrollToServices{
     margin-top: 20px;
+}
+
+#scrollToContact{
+    margin-bottom: 40px;
+}
+
+.background{
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.avvo{
+    
+    margin: auto;
 }
