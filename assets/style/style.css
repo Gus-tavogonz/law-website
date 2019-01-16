@@ -5,6 +5,8 @@
 
 nav{
     background-color: lightgray;
+    overflow: hidden;
+    
 }
 
 .nav-title{
