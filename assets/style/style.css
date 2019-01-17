@@ -1,15 +1,32 @@
+.offset-scroll{
+    padding-top:95px;
+}
+
+.offset-padding{
+    padding-top: 95px;
+}
+
+
 .navbar-brand{
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+
+
 nav{
     background-color: lightgray;
     overflow: hidden;
-    position:relative;
-    margin-bottom: auto;
-    z-index:3;
-    text-transform:uppercase;
+    position: fixed;
+    display: block;
+   z-index: 1000;
+   margin-bottom: -95px;
+}
+
+
+.sticky{
+    position: fixed;
+    width: 100%
 }
 
 .nav-title{
@@ -35,10 +52,9 @@ a:hover{
 /* STICKY */
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-bottom: 40px;
+   padding-top: 10px;
+
+
   }
 
 

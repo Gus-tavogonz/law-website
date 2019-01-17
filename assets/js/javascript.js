@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     var navbar = $(".navbar");
         stickyDiv = "sticky";
-        header = $(".navbar").height();
+        header = .1;
 
         $(window).scroll(function() {
             if ( $(this).scrollTop() > header){
@@ -22,6 +22,10 @@ $(document).ready(function(){
         $("html, body").animate({
             scrollTop: $("#scrollToServices").offset().top
         }, 750)
+
+        var servicesDiv = $("#scrollToServices");
+        var offsetPadding = "offset-padding";
+        servicesDiv.addClass(offsetPadding);
     })
 
 
@@ -32,6 +36,10 @@ $(document).ready(function(){
             scrollTop: $("#scrollToAttorneyProfile").offset().top
         }, 750)
 
+        var attorneyDiv = $("#scrollToAttorneyProfile");
+        var offsetPadding = "offset-padding";
+        attorneyDiv.addClass(offsetPadding);
+
     })
 
 
@@ -41,6 +49,10 @@ $(document).ready(function(){
         $("html, body").animate({
             scrollTop: $("#scrollToContact").offset().top
         }, 750)
+
+        var contactDiv = $("#scrollToContact");
+        var offsetPadding = "offset-padding";
+        contactDiv.addClass(offsetPadding);
     })
 
 
