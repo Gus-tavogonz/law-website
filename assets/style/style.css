@@ -6,7 +6,10 @@
 nav{
     background-color: lightgray;
     overflow: hidden;
-    
+    position:relative;
+    margin-bottom: auto;
+    z-index:3;
+    text-transform:uppercase;
 }
 
 .nav-title{
@@ -28,6 +31,15 @@ a:hover{
     padding-top: 4px;
 
 }
+
+/* STICKY */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 40px;
+  }
 
 
 
