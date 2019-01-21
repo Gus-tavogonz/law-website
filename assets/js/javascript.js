@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     var navbar = $(".navbar");
         stickyDiv = "sticky";
-        header = .1;
+        header = -1;
 
         $(window).scroll(function() {
             if ( $(this).scrollTop() > header){

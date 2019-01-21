@@ -1,26 +1,35 @@
 .offset-scroll{
-    padding-top:95px;
+    padding-top:74px;
 }
 
 .offset-padding{
-    padding-top: 95px;
+    padding-top: 74px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
 }
 
 
+
 .navbar-brand{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 
 
 nav{
-    background-color: lightgray;
+    color: white;
+    background-color: #153575;
     overflow: hidden;
     position: fixed;
     display: block;
    z-index: 1000;
    margin-bottom: -95px;
+   font-family: 'Lato', sans-serif;
 }
 
 
@@ -35,7 +44,7 @@ nav{
 
 
 a{
-    color: #696969;
+    color: #e1e1df;
 }
 
 a:hover{
@@ -60,28 +69,38 @@ a:hover{
 
 
 .jumbotron{
-    height: 500px;
-
+    height: 800px;
+    background-image: url("https://www.newyorksightseeing.com/media/catalog/product/cache/29/thumbnail/9df78eab33525d08d6e5fb8d27136e95/e/m/emprie_state_building_6.jpg");
+    background-size:cover;
 }
 
 .title{
     text-align: center;
-    padding: 40px;
+    
     margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.display-4{
+    font-family: 'Lato', sans-serif;
 }
 
 
 .attorney{
     color: white;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 15px;
 }
 .subtitle{
     text-align: center;
     padding: 20px;
+    font-family: 'Lato', sans-serif;
 
 }
 .column{
     text-align: justify;
     padding: 7px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -94,10 +113,13 @@ a:hover{
     text-align: justify;
     line-height: 1.6;
     margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 .white-text{
     color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
 
 .col-md-6{
@@ -107,6 +129,7 @@ a:hover{
 .center{
     text-align: center;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
     
 }
 
@@ -119,11 +142,33 @@ a:hover{
 }
 
 .background{
-    background-color: lightgray;
+    background-color: 	#3f3e3c;
     margin-bottom: 20px;
 }
 
 .avvo{
     display: block;
     margin: auto;
+    padding: 2px;
+}
+
+.view-profile{
+    display: block;
+    margin: auto;
+    padding: 15px;
+
+}
+
+.copyright{
+    padding: 15px;
+    
+text-align: center;
+    margin: auto;
+    align-content: center;
+}
+
+.photo-text{
+    padding: 2px;
+    color: white;
+    font-family: 'Lato', sans-serif;
 }
