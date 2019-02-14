@@ -7,32 +7,47 @@
 }
 
 p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
-
 
 .navbar-brand{
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
 }
 
-
+.bg-dark {
+    background-color:#303030!important;
+}
 
 nav{
     color: white;
-    background-color: #153575;
     overflow: hidden;
     position: fixed;
     display: block;
    z-index: 1000;
    margin-bottom: -95px;
-   font-family: 'Lato', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   width: 100%;
 }
 
+.subheader{
+    background-color: #0A225F;
+    height: 100%;
+}
 
+.jumbosub{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin:auto;
+}
 .sticky{
     position: fixed;
     width: 100%
@@ -40,85 +55,116 @@ nav{
 
 .nav-title{
     font-size: 26px;
-}
+    color: white;
 
-
-a{
-    color: #e1e1df;
-}
-
-a:hover{
-    color:white;
 }
 
 .nav-item{
-    font-size: 20px;
-    color: darkgrey;
-    padding-top: 4px;
-
+    font-size: 24px;
+    margin-left: 55px;
+    padding-top: 4px;  
 }
 
+
+
+.nav-item:hover{
+    border-bottom: 2px solid;
+     
+     border-color: white;
+}
+
+
+/* NAV TEXT COLOR */
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav  .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
 /* STICKY */
 
-.sticky {
-   padding-top: 10px;
-
-
-  }
-
-
-
-.jumbotron{
-    height: 800px;
-    background-image: url("https://www.newyorksightseeing.com/media/catalog/product/cache/29/thumbnail/9df78eab33525d08d6e5fb8d27136e95/e/m/emprie_state_building_6.jpg");
+.jumbotron-nav{
+    height: 650px;
+    background-image: url("https://www.tripsavvy.com/thmb/DCRza6Etahv_zwZAgYmFrleK6TU=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/470927391-56a3fef43df78cf772804a5c.jpg");
     background-size:cover;
 }
 
 .title{
-    text-align: center;
+    text-align:center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
     
-    margin-bottom: 0px;
-    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    color: white;
+    
 }
 
+
+
 .display-4{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 55px;
+}
+
+.lead{
+    font-size: 26px;
+    color: rgb(87, 87, 87);
 }
 
 
 .attorney{
     color: white;
-    font-family: 'Lato', sans-serif;
-    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+    text-align:left; 
 }
 .subtitle{
     text-align: center;
     padding: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 .column{
     text-align: justify;
     padding: 7px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image-hue-criminal{
+    background-color: #0A225F;
+    background-image: url("https://cdn-01.independent.ie/incoming/article29299570.ece/19883/AUTOCROP/w620/hammer-and-gavel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    transition: 1s;
+}
+
+.image-hue-criminal:hover{
+     background-color: #0A225F;
+     background-image: url('http://thenationonlineng.net/wp-content/uploads/2018/01/Court1.jpg');
+   transition: 1s;
+  box-shadow: 0 0 0px
 }
 
 
 .attorney-profile{
     margin-top: 40px;
-
+    
 }
 
 .justify{
     text-align: justify;
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .white-text{
     color:white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
 
@@ -128,8 +174,11 @@ a:hover{
 
 .center{
     text-align: center;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding:5px;
+    color: white;
+   
     
 }
 
@@ -142,7 +191,7 @@ a:hover{
 }
 
 .background{
-    background-color: 	#3f3e3c;
+    background-color: 	 #303030;
     margin-bottom: 20px;
 }
 
@@ -170,5 +219,36 @@ text-align: center;
 .photo-text{
     padding: 2px;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
 }
+
+.footer{
+    height:400px;
+}
+
+.subtitle-background{
+    height: 80px;
+    background-size:cover;
+   
+}
+
+#scrollToServices{
+    padding-bottom: 150px;
+}
+
+.contact-background{
+    background-color:rgb(189, 189, 189);
+    height: 100%;
+    padding: 15px;
+}
+
+a {
+   color:inherit
+}
+
+a:hover {
+    color: rgb(4, 48, 158);
+    text-decoration: none;
+    transition: 1s;
+ }

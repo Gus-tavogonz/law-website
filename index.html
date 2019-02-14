@@ -17,7 +17,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!----LATO FONTS-->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif+SC" rel="stylesheet">
 
     <!---Style by Gus-Tavo-->
     <link rel="stylesheet" href="assets/style/style.css">
@@ -42,7 +46,7 @@
               </script>
 
     <div class="section-navbar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky "  >
             <div class="container">
                 <a class="navbar-brand" href="index.html"> <span class="nav-title">Migir Ilganayev</span> <span class="nav-title">| Attorney at Law</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,26 +75,42 @@
         </nav>
     </div><!--NAVS ENDS HERE!!!!!-->
 
-<div class="offset-scroll">
+
+ 
+
+<div class="offset-padding">
 
     
 
     <!-----JUMBOTRON HERE-->
 
-    <div class="jumbotron">
-        <div class="container">
+    <div class="jumbotron-nav">
+        <div class="container jumbo">
             <br>
             <br>
             <br>
 
-            <h1 class="display-4">Ilganayev Law Firm</h1>
-            <p class="lead">New York city based Law Firm, offering a wide range of services</p>
+            <h1 class="display-4 jumbotext">Ilganayev Law Firm</h1>
+            <p class="lead">Offering the best Law Experience in New York</p>
           
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         </div>
     </div>
     <!-----JUMBOTRON ENDS HERE-->
 
+    <div class="subheader">
+        
+            <div class="container">
+                    <div class="row">
+                <div class="col-md-12">
+                  
+                    <p class="jumbosub">We offer the best legal representation in New York City</p>
+                </div>
+                </div>
+            </div>
+ </div>
+        
+    
 
     <!----COLUMNS HERE-->
     
@@ -98,26 +118,42 @@
         <div class="row">
             <div class="container">
                 <div class="col-md-12 center">
-                    <h1>Our Services</h1>
+                    <h1></h1>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
-                <h3 class="subtitle">Criminal Defense</h3>
-                <p class="column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, minus. Vitae numquam harum eaque commodi temporibus quaerat officia! Fuga laudantium, saepe quasi ipsam nostrum quae repudiandae. Corrupti esse accusantium minima?</p>
+                <div class="card">
+                    <img class="card-img-top image-hue-criminal"  >
+                    <div class="card-body">
+                        <h3 class="subtitle"><a href="criminal.html">Criminal Litigation</a> </h3>
+                      <p class="card-text column">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto aliquam praesentium doloribus, id similique dignissimos illum quis voluptatum magni maiores impedit nulla facere consectetur assumenda corrupti quod quam sed inventore.</p>
+                    </div>
+                  </div>
             </div>
 
             <div class="col-md-4">
-                <h3 class="subtitle">Civil Litigation</h3>
-                <p class="column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, minus. Vitae numquam harum eaque commodi temporibus quaerat officia! Fuga laudantium, saepe quasi ipsam nostrum quae repudiandae. Corrupti esse accusantium minima?</p>
+                    <div class="card">
+                    <img class="card-img-top" src="https://cdn-01.independent.ie/incoming/article29299570.ece/19883/AUTOCROP/w620/hammer-and-gavel.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="subtitle"><a href="civil.html">Civil Litigation</a></h3>
+                      <p class="card-text column">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptatibus perferendis! Esse, rem quos! Error delectus velit, tenetur blanditiis eveniet corporis ipsa dolor deserunt ab totam voluptatum eligendi repudiandae voluptas?</p>
+                    </div>
+                  </div>
+                   
             </div>
 
             <div class="col-md-4">
-                <h3 class="subtitle">Personal Injury</h3>
-                <p class="column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, minus. Vitae numquam harum eaque commodi temporibus quaerat officia! Fuga laudantium, saepe quasi ipsam nostrum quae repudiandae. Corrupti esse accusantium minima?</p>
-            </div>
+                  <div class="card">
+                    <img class="card-img-top" src="https://cdn-01.independent.ie/incoming/article29299570.ece/19883/AUTOCROP/w620/hammer-and-gavel.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="subtitle"><a href="personal.html">Personal Injury</a></h3>
+                      <p class="card-text column">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, magnam blanditiis voluptas earum dicta labore eos eaque? Sed provident accusantium ipsum, odit totam libero nisi possimus consequatur quibusdam esse aut.</p>
+                    </div>
+                  </div>
         </div>
+    </div>
     </div>
     <!----COLUMNS ENDS HERE-->
 
@@ -125,7 +161,7 @@
     <div class="container attorney-profile offset-padding" id="scrollToAttorneyProfile">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="title attorney">Attorney Profile</h1>
+               
             </div>
         </div>
         <div class="row">
@@ -136,6 +172,7 @@
                 <p class="photo-text">Migir Ilganayev pictured at Friends of Steve Cohen Charity Event</p>
             </div>
             <div class="col-md-6">
+                <h2 class="title attorney">Attorney Profile</h2>
                 <p class="justify white-text">Migir Ilganayev graduated from the City University of New York, Brooklyn College in 2012 with a B.A degree in Political Science and Philosophy of Law. </p>
 
                 <p  class="justify white-text">Mr. Ilganayev received his Juris Doctorate from New York Law School in 2015. While in law school, Mr. Ilganayev was awarded the Public Service Certificate for his pro bono work at Volunteers of Legal Service and Reality House, Inc., in NYC where Mr. Ilganayev assisted low-income New Yorkers with various legal issues. 
@@ -154,18 +191,38 @@
 
 
     <div class="container  offset-padding" id="scrollToContact"  >
+         
             <div class="row">
-                <div class="col-md-12">
-                    <h3 class="title ">For contact please reach out to:</h3>
-                    <p class="center ">ilganayevlaw@gmail.com</p>
-                    <p class="center ">(646) 396-8050</p>
-                    <p class="center ">139 Fulton St, Suite 801, New York, New York 10038, USA</p>
+                        
+                    <div class="col-md-12">
+                                <div class="contact-background">
+                                
+                                <h4 class="title ">Email:</h4>
+                                <p class="center ">
+                                    <a href="mailto:ilganayevlaw@gmail.com">ilganayevlaw@gmail.com</a> 
+                                </p>
+                               
+                                <h4 class="title ">Phone:</h4>
+                                <p class="center ">
+                                        <a href="tel:16463968050">(646) 396-8050</a>
+
+                                        </p>
+                                
+                                <h4 class="title ">Address:</h4>
+                                <p class="center ">
+                                   <a href="https://goo.gl/maps/XDwgS9rBnaH2" target="_blank"> 139 Fulton St, Suite 801, New York, New York 10038, USA </a>
+                                </p>
+                                
+                            </div>
+                    </div>
+
+                 
+
                     
-                    <p></p>
-                    
-                    <p></p>
-                </div>
+                        
             </div>
+
+            
         </div>
    
    
@@ -174,11 +231,11 @@
     </div>
 
 
-        <div class="jumbotron">
+        <div class="jumbotron footer">
           <div class="container">
               <div class="row">
-                  <div class="col-md-4"></div>
-                <div class="col-md-4">
+                  <div class="col-md-3"></div>
+                <div class="col-md-6">
                     <a href="https://www.avvo.com/attorneys/10038-ny-migir-ilganayev-4843468.html" target="_blank">
                     <img class="view-profile" src="https://static.wixstatic.com/media/475b64_a0117bd917bc4f109c553f03ca379b2d~mv2.png/v1/fill/w_150,h_36,al_c,lg_1,q_80/475b64_a0117bd917bc4f109c553f03ca379b2d~mv2.webp" alt="">
                     </a>
@@ -187,11 +244,11 @@
                     
 
                     <br>
-                    <p class="copyright"> &copy; 2019 Migir Ilganayev </p>
+                    <p class="copyright"> &copy; 2019 Migir Ilganayev |  (646) 396-8050 | 139 Fulton St, Suite 801, New York, NY, 10038</p>
                 
                 
                 </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-3"></div>
               </div>
           </div>
 

@@ -15,6 +15,7 @@ $(document).ready(function(){
             }
         })
 
+  
 
     $(".services").click(function(){
         event.preventDefault();
@@ -24,8 +25,8 @@ $(document).ready(function(){
         }, 750)
 
         var servicesDiv = $("#scrollToServices");
-        var offsetPadding = "offset-padding";
-        servicesDiv.addClass(offsetPadding);
+       // var offsetPadding = "offset-padding";
+        //servicesDiv.addClass(offsetPadding);
     })
 
 
@@ -37,8 +38,8 @@ $(document).ready(function(){
         }, 750)
 
         var attorneyDiv = $("#scrollToAttorneyProfile");
-        var offsetPadding = "offset-padding";
-        attorneyDiv.addClass(offsetPadding);
+        //var offsetPadding = "offset-padding";
+        //attorneyDiv.addClass(offsetPadding);
 
     })
 
@@ -51,9 +52,11 @@ $(document).ready(function(){
         }, 750)
 
         var contactDiv = $("#scrollToContact");
-        var offsetPadding = "offset-padding";
-        contactDiv.addClass(offsetPadding);
+        //var offsetPadding = "offset-padding";
+       // contactDiv.addClass(offsetPadding);
     })
+
+
 
 
 })
