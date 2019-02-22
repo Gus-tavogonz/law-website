@@ -39,21 +39,22 @@ nav{
 }
 
 .subheader{
-    background-color: rgb(4, 48, 158);
+    
     height: 100%;
     padding: 20px;
 }
 
 .jumbosub{
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+  
     margin-top: 35px;
     margin-bottom: 25px;
     padding: 20px;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
-    color: white;
+    color:rgb(4, 48, 158);
     margin:auto;
     
 }
@@ -96,17 +97,17 @@ nav{
 
 .jumbotron-nav{
     height: 550px;
-    background-image: url("../../assets/images/background1.jpg");
+    background-image: url("../../assets/images/background2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 .title{
-    text-align:center;
+    text-align:right;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     
-    padding: 10px;
+    padding-bottom: 18px;
     color: white;
     
 }
@@ -207,7 +208,7 @@ nav{
 }
 
 .white-text{
-    color:white;
+   color:#222222;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
@@ -217,10 +218,10 @@ nav{
 }
 
 .center{
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    padding:5px;
+   
     color: white;
    
     
@@ -235,7 +236,7 @@ nav{
 }
 
 .background{
-    background-color: 	 #303030;
+    
     margin-bottom: 20px;
 }
 
@@ -262,7 +263,7 @@ text-align: center;
 
 .photo-text{
     padding: 2px;
-    color: white;
+    color: #222222;
     font-family: 'Roboto', sans-serif;
     font-size:14px;
 }
@@ -284,7 +285,7 @@ text-align: center;
 .contact-background{
     background-color:rgb(189, 189, 189);
     height: 100%;
-    padding: 15px;
+
 }
 
 a {
@@ -295,4 +296,14 @@ a:hover {
     color: rgb(4, 48, 158);
     text-decoration: none;
     transition: 1s;
- }
+}
+
+.migir-photo{
+    width: 525px;
+}
+
+ @media only screen and (max-width: 600px) {
+    .migir-photo {
+      width:490px;
+    }
+  }
