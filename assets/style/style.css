@@ -150,16 +150,17 @@ nav{
 }
 .image-hue-criminal{
   
-    background-image: url("../../assets/images/criminal2-1-01.png");
+    background-image: url("../../assets/images/2-2-01.png");
     background-size: cover;
+    height: 150pTx;
     background-repeat: no-repeat;
-    height: 250px;
+    
     transition: 1s;
 }
 
 .image-hue-criminal:hover{
      
-    background-image: url("../../assets/images/criminal-01-01-01-01-01-01.png");
+    background-image: url("../../assets/images/2-01.png");
     transition: 1s;
   box-shadow: 0 0 0px
 }
