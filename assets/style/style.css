@@ -24,7 +24,7 @@ p{
 }
 
 .bg-dark {
-    background-color:#0f0f0f!important;
+    background-color:#001881!important;
 }
 
 nav{
@@ -302,6 +302,20 @@ a:hover {
 .migir-photo{
     width: 525px;
 }
+
+/*CLASS FOR  CRIMINAL SECTION*/
+
+.disclaimer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.possesion{
+    font-family: 'Roboto', sans-serif; 
+}
+
 
  @media only screen and (max-width: 600px) {
     .migir-photo {
