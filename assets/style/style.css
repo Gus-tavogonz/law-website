@@ -316,6 +316,12 @@ a:hover {
     font-family: 'Roboto', sans-serif; 
 }
 
+.case{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px;
+}
+
 
  @media only screen and (max-width: 600px) {
     .migir-photo {
