@@ -21,10 +21,12 @@ p{
     color: rgb(4, 48, 158);
   
     font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    transition: 0.5s;
 }
 
 .bg-dark {
-    background-color:#001881!important;
+    background-color:#141c3d!important;
 }
 
 nav{
@@ -136,6 +138,7 @@ nav{
     text-align: center;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
    
 
 }
